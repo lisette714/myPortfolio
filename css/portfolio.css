@@ -19,8 +19,8 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: lowercase;
+    font-family: sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -63,7 +63,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: sans-serif;
     background-color: #000;
 }
 
@@ -77,7 +77,7 @@ a:focus {
 
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
-    font-size: 16px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -136,7 +136,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/overview.jpg) no-repeat bottom center scroll;
+    background: url(../img/wood) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -168,7 +168,7 @@ a:focus {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 90px;
     }
 }
 
@@ -248,6 +248,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
+    background-color: #D2B48C;
 }
 
 .portfolio-section {
@@ -255,7 +256,7 @@ a:focus {
     height:auto;
     padding: 0;
     color: #fff;
-    background: url(../img/computertable.jpg) no-repeat bottom center scroll;
+    background: url(../img/highway) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -275,7 +276,7 @@ a:focus {
 
 #about{
     padding:50px 0 100px 0;
-     background: #18bc9c;
+     background: #FA8072;
 }
 
 @media(min-width:767px) {
@@ -292,7 +293,7 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
